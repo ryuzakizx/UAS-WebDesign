@@ -1,0 +1,402 @@
+@charset "utf-8";
+/* CSS Document */
+::selection {
+	color:orange;
+	
+}
+body {
+	width:1349px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.mrg {
+	margin:0px auto;
+	padding:0px;
+}
+.nav {
+	padding-left:680px;
+	height:40px;
+	background-color:#31535f;
+	border-bottom:5px solid rgba(255, 165, 0, .9);
+	box-shadow:0px 0px 30px  orange;
+}
+	.nav ul {	
+		width:100%;
+		margin:0 auto;	
+		padding:0px;	
+	}
+	.nav ul li {
+		font-size:16px;
+		padding:10px 25px 0px 20px ;
+		display:inline-block;
+		text-decoration:none;
+		
+	}
+	.nav ul li a {
+		padding:6px;
+		color:white;
+		text-decoration:none;
+	}
+	.nav ul li a:hover {
+		border-radius:1px;
+		color:#31535f;
+		background-color:white;
+	}
+.bglogo {
+	padding-left:450px;
+	}
+.firstbg {
+	width:100%;
+	height:750px;
+	background-image:url(img/imagess.jpg);
+	background-repeat:no-repeat;
+}
+.logo {
+	position:absolute;
+	top:320px;
+	width:60px;
+	height:80px;
+	background-color:#31535f;
+	opacity:0.6;
+}
+	.line  {
+		position:absolute;
+		top:10px;
+		left:8%;
+		width:80%;
+		height:5px;
+		background-color:white;
+	}
+	.line1 {
+		position:absolute;
+		top:20px;
+		left:8%;
+		width:80%;
+		height:5px;
+		background-color:white;
+	}
+	.line2 {
+		position:absolute;
+		top:30px;
+		left:8%;
+		width:80%;
+		height:5px;
+		background-color:white;
+	}
+	.line3 {
+		position:absolute;
+		top:40px;
+		left:8%;
+		width:80%;
+		height:5px;
+		background-color:white;
+	}
+	.line4 {
+		position:absolute;
+		top:50px;
+		left:8%;
+		width:80%;
+		height:5px;
+		background-color:orange;
+	}
+	.line5 {
+		position:absolute;
+		top:60px;
+		left:8%;
+		width:60%;
+		height:5px;
+		background-color:orange;
+	}
+	.line6 {
+		position:absolute;
+		top:70px;
+		left:8%;
+		width:40%;
+		height:5px;
+		background-color:orange;
+	}
+
+/* mengatur bagian tulisan web kamal */
+.firstbg h1{
+	padding-left:520px;
+	padding-top:265px;
+	color:orange;
+	font-size:60px;
+	opacity:0.6;
+
+}
+/* mengatur tulisan bawahnya "Membahas" */
+.firstbg  p {
+	padding-left:560px;
+	margin-top:-4px;
+	font-size:22px;
+	opacity:0.5;
+	color:#40344c;
+}
+	.firstbg h1:hover , p:hover {
+		cursor:pointer;
+}
+
+/* bagian penjelasan kontent sedikit */
+.catgories {
+	text-align:justify;
+	color:black;
+	position:relative;
+	top:0px;
+	width:100%;
+	height:720px;
+	background-color:#F3F3F3;
+	border-bottom:px solid orange;
+}
+/* menggunakan hover biar pas mouse diarahkan ke elemen nya akan ada efek */
+.catg1:hover , .catg2:hover , .catg3:hover , .catg4:hover {
+	box-shadow:0px 10px 15px  orange;
+}
+.catgories h3 {
+	padding:5px 0px 5px 0px;
+	border-radius:5px;
+	background-color:#31535f;
+	text-align:center;
+	color:white;
+}
+	.catg1 {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:80px;
+		left:120px;
+		width:260px;
+		height:auto;
+		background-color:#F3F3F3; box-shadow:0px 0px 3px  orange;
+	}
+	.catg2 {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:80px;
+		left:140px;
+		width:260px;
+		height:auto;
+		background-color:#F3F3F3;
+		box-shadow:0px 0px 3px  orange;
+	}
+		.catg3 {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:80px;
+		left:160px;
+		width:260px;
+		height:auto;
+		background-color:#F3F3F3;
+		box-shadow:0px 0px 3px  orange;
+	}
+	.catg4 {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:80px;
+		left:180px;
+		width:260px;
+		height:auto;
+		background-color:#F3F3F3;	
+		box-shadow:0px 0px 3px  orange;
+	}
+
+	.catgbetang {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:30px;
+		left:40px;
+		width:1225px;
+		height:auto;
+		background-color:#F3F3F3;
+		box-shadow:0px 0px 3px  orange;
+		margin-right	: 3px;
+		margin-top	: 2px;
+		}
+	.catgtarian {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:30px;
+		left:40px;
+		width:1225px;
+		height:auto;
+		background-color:#F3F3F3;
+		box-shadow:0px 0px 3px  orange;
+		margin-right	: 3px;
+		margin-top	: 2px;
+		}
+	.catgmakanan {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:30px;
+		left:40px;
+		width:1225px;
+		height:auto;
+		background-color:#F3F3F3;
+		box-shadow:0px 0px 3px  orange;
+		margin-right	: 3px;
+		margin-top	: 2px;
+		}
+	.catgmuseum {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:30px;
+		left:40px;
+		width:1225px;
+		height:auto;
+		background-color:#F3F3F3;
+		box-shadow:0px 0px 3px  orange;
+		margin-right	: 3px;
+		margin-top	: 2px;
+		}
+	.catgaleri {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:30px;
+		left:40px;
+		width:1265px;
+		height:650px;
+		background-color:#F3F3F3;
+		box-shadow:0px 0px 3px  orange;
+		margin-right	: 3px;
+		margin-top	: 2px;
+		}
+.catgdesc {
+		border-top:5px solid orange;
+		border-radius:5px;
+		padding:0px 20px 0px 20px;
+		float:left;
+		position:relative;
+		top:30px;
+		left:40px;
+		width:500px;
+		height:auto;
+		background-color:#F3F3F3;
+		box-shadow:0px 0px 3px  orange;
+		margin-right	: 3px;
+		margin-top	: 2px;
+		}
+.gallery {
+    border: 0px solid #ccc;
+}
+.gallery:hover {
+    border: 1px solid #777;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* bagian penjelasan "mengapa" */
+.imgsecond {
+
+	width:100%;
+	height:1000px;
+	background-image:url(img/bgimagess.jpg);
+	background-repeat:no-repeat;
+}
+	.imgsecond .content	{
+		padding:30px;
+		position:relative;
+		top:150px;
+		margin-left:260px;
+		width:800px;
+		height:500px;
+		background-color:white;
+		opacity:0.7;
+		border:10px solid rgba(255, 165, 0, .7);
+	}
+/* bagian footer tempat taroh sosmed */
+.footer {
+	width:100%;
+	height:250px;
+	background-color:#ECECEC;
+}
+	.footer .seprline {
+		opacity:0.6;
+		width:100%;    
+		height:5px;
+		background-color:orange;
+		border-radius:30px;
+	}
+	.icon {
+		padding:50px 0px 0px 505px;
+		
+		
+	}
+	.icon li:hover {
+		 box-shadow:0px 0px 5px  orange;
+	 }
+	.icon ul li {
+		font-size:30px;
+		list-style:none;
+		display:inline;
+		padding-left:10px;	
+	}
+	i {
+		color:orange;
+	}
+/* bagian footer copyright */
+	.copyright {
+		padding:0px 0px 0px 505px;
+	}
+	#cent {
+			padding:0px 0px 0px 100px;
+	}
